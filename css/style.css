@@ -129,20 +129,20 @@ body {
   padding-top: 4rem;
   width: 55%;
 }
-.education__list {
-  display: flex;
-  gap: 4rem;
-  justify-content: start;
+.education__list, .skills__list {
   padding-left: 1rem;
-  margin-top: 0
+  margin-top: 0;
 }
-.education__title {
-  margin-bottom: 0;
+
+.education__desc, .skills__desc {
+  margin-bottom: .5rem;
+  margin-right: 1.5rem;
 }
 .about-text,
 .code-text {
   padding-right: 2rem;
   padding-bottom: 1rem;
+  line-height: 135%;
 }
 .education__link:hover,
 .education__link:active,
